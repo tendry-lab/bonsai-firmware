@@ -7,7 +7,7 @@ Make sure ESP-IDF is properly installed, see to the official [documentation](htt
 **Clone repository**
 
 ```
-git clone git@github.com:open-control-systems/bonsai-firmware.git --recursive
+git clone git@github.com:tendry-lab/bonsai-firmware.git --recursive
 ```
 
 **Configure the Firmware**
