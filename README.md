@@ -9,7 +9,7 @@
 
 ## Build Status
 
-- [![ESP32](https://github.com/open-control-systems/bonsai-firmware/actions/workflows/esp32.yml/badge.svg)](https://github.com/open-control-systems/bonsai-firmware/actions/workflows/esp32.yml)
+- [![ESP32](https://github.com/tendry-lab/bonsai-firmware/actions/workflows/esp32.yml/badge.svg)](https://github.com/tendry-lab/bonsai-firmware/actions/workflows/esp32.yml)
 
 ## License
 
