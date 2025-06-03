@@ -227,6 +227,10 @@ ProjectPipeline::ProjectPipeline() {
                     (1000
                      * CONFIG_BONSAI_FIRMWARE_SENSOR_SOIL_ANALOG_RELAY_POWER_ON_DELAY_INTERVAL)
                     / portTICK_PERIOD_MS,
+                .sensor =
+                    sensor::soil::AnalogSensor::Params {
+                        .status_progress_threshold = 4,
+                    },
             }));
     configASSERT(soil_relay_sensor_pipeline_);
 
