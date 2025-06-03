@@ -198,6 +198,10 @@ ProjectPipeline::ProjectPipeline() {
                 },
             .read_interval = core::Duration::second
                 * CONFIG_BONSAI_FIRMWARE_SENSOR_SOIL_ANALOG_READ_INTERVAL,
+            .sensor =
+                sensor::soil::AnalogSensor::Params {
+                    .status_progress_threshold = 4,
+                },
         }));
     configASSERT(soil_sensor_pipeline_);
 
